@@ -1219,3 +1219,73 @@ footer .wave#wave4
         line-height: 38px;
     }
 }
+
+
+
+@media(max-width:700px){
+    .classbox
+    {
+        position: relative;
+        width:150px;
+        height: 55px;
+
+        justify-content: center;
+        align-items: center;
+        background: rgba(0, 0, 0, 0.5);
+        overflow: hidden;
+        border-radius: 25px;
+        margin-top: 45px;
+     
+
+    }
+    .classbox a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+    z-index: 10;
+    cursor: pointer;
+}
+
+    }
+
+
+    @media(max-width:360px){
+        body{
+            zoom: 80%;
+        }
+        nav{
+            zoom: 80%;  
+        }
+
+
+        .classbox
+        {
+            position: relative;
+            width:150px;
+            height: 55px;
+    
+            justify-content: center;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.5);
+            overflow: hidden;
+            border-radius: 25px;
+            margin-top: 45px;
+         
+    zoom: 97%;
+        }
+        .classbox a
+    {
+        text-decoration: none;
+        color: #fff;
+        font-size: 1em;
+        z-index: 10;
+        cursor: pointer;
+    }
+    .home .home-content .text-2{
+        font-size: 40px;
+        font-weight: 600;
+        margin-left: -3px;
+        text-shadow: 2px 2px 2px 2px black;
+    }
+        }
